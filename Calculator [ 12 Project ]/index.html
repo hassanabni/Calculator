@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <head>
+                <div class="head">
+                <input type="enter number" id="calculations-box" value="0">
+            </div>
+            </head>
+            <main>
+                <div class="first-line btn">
+                    <input type="button" class="blue" id="clear" value="AC">
+                    <input type="button" class="blue" id="delete" value="DE" onclick="deleted()">
+                    <input type="button" class="blue both" value=".">
+                    <input type="button" class="blue both" value="/">
+                </div>
+                <div class="second-line btn">
+                    <input type="button" class="white both" value="7">
+                    <input type="button" class="white both" value="8">
+                    <input type="button" class="white both" value="9">
+                    <input type="button" class="blue both" value="*">
+                </div>
+                <div class="third-line btn">
+                    <input type="button" class="white both" value="4">
+                    <input type="button" class="white both" value="5">
+                    <input type="button" class="white both" value="6">
+                    <input type="button" class="blue both" value="-">
+                </div>
+                <div class="fourth-line btn">
+                    <input type="button" class="white both" value="1">
+                    <input type="button" class="white both" value="2">
+                    <input type="button" class="white both" value="3">
+                    <input type="button" class="blue both" value="+">
+                </div>
+                <div class="fifth-line btn">
+                    <input type="button" class="white both" value="00">
+                    <input type="button" class="white both" value="0">
+                    <input type="button" class="blue" id="equals" value="=" >
+                </div>
+            </main>
+        </div>
+    </div>
+    
+<script src="script.js"></script></body>
+</html>
